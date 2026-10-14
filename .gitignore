@@ -1,0 +1,25 @@
+# 编译产物（.elf/.hex/.bin/.o 等是生成的，不用上传）
+build/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.su
+*.lst
+
+# CMake 缓存
+CMakeFiles/
+CMakeCache.txt
+
+# 参考文档（手册/教程，不是代码，太大，不上传）
+*.pdf
+*.docx
+
+# 编辑器/系统文件
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
